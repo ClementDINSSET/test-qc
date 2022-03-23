@@ -11,7 +11,7 @@ namespace UPJV\Validator;
  */
 class EstValide implements ValidatorInterface
 {
-	/**
+    /**
      * Récupère la taille minimum spécifier dans la conf
      *
      * @param array $param
@@ -23,7 +23,7 @@ class EstValide implements ValidatorInterface
         return $this;
     }
 
-	/**
+    /**
      * Test la longueur de la chaine de caractères
      *
      * @param $input
